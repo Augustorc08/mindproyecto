@@ -10,6 +10,8 @@
     <string name="btnRegistrar">REGISTRAR</string>
     <string name="btnIngresar">INGRESAR</string>
     <string name="btnCancelar">CANCELAR</string>
+    <string name="prubea">prueba</string>
+
 
     <!--PANTALLA DE INGRESO-->
     <string name="bienvenida">BIENVENIDO A  \n MIND AI </string>
