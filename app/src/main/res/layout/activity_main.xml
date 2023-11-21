@@ -10,33 +10,38 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="333dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="@string/tprincipal"
         android:gravity="center"
         android:layout_gravity="center"
-        android:textSize="40dp"
+        android:textSize="30sp"
         android:textStyle="bold" />
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         app:srcCompat="@drawable/logo"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="40dp"/>
     <Button
         android:id="@+id/btnIngresar"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
         android:text="@string/btnIngresar"
         android:backgroundTint="#053A6A"/>
     <Button
         android:id="@+id/btnRegistrar"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
         android:text="@string/btnRegistrar"
         android:backgroundTint="#053A6A"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

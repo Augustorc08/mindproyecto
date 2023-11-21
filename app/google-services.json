@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "265775255534",
-    "project_id": "mind-868ee",
-    "storage_bucket": "mind-868ee.appspot.com"
+    "project_number": "931762521550",
+    "project_id": "mindproyect-e3c02",
+    "storage_bucket": "mindproyect-e3c02.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:265775255534:android:2f338a0b4d0b91c1eec8ff",
+        "mobilesdk_app_id": "1:931762521550:android:13ec9971a0594d5fce979f",
         "android_client_info": {
           "package_name": "com.example.mind"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBfR8KRf3d3TKYNmYaKtPMZ685WMaeMeg4"
+          "current_key": "AIzaSyCKcVP8fIzv41qCz6D1KnX1xfzZS-yC_sQ"
         }
       ],
       "services": {
