@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f_pantalla"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/tprincipal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/btnIngresar"
+        android:backgroundTint="#053A6A"/>
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/btnRegistrar"
+        android:backgroundTint="#053A6A"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
